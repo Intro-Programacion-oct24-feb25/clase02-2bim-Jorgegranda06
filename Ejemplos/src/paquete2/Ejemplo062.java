@@ -3,15 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paquete1;
+package paquete2;
 
+import paquete1.*;
 import java.util.Scanner;
 
 /**
  *
  * @author reroes
  */
-public class Ejemplo06 {
+public class Ejemplo062 {
 
     /**
      * @param args the command line arguments
@@ -21,7 +22,7 @@ public class Ejemplo06 {
         Scanner entrada = new Scanner(System.in);
         int dato;
         // arreglo de tipo entero
-        int[] arreglo1 = new int[4];
+        int[] arreglo1 = new int[7];
         
         // Se asigna valores al arreglo, pidiendo valores por teclado
         // se usa un ciclo repetitivo
