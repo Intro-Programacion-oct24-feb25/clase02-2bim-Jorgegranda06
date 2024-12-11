@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package paquete2;
-
+import java.util.Scanner;
 
 /**
  *
@@ -17,12 +17,15 @@ public class Ejemplo05 {
      */
     public static void main(String[] args) {
         // Declarar y generar arreglos en Java
-        scaner
-
-        // arreglo de tipo entero
-        int[] arreglo1 = new int[15];
-        // Se asigna valores al arreglo
+        Scanner entrada = new Scanner (System.in);
+        // Declarar y generar arreglos en Java
         
+        System.out.println("Ingrese el numero de elementos");
+        int numeroElementos = entrada.nextInt();
+        
+        // arreglo de tipo entero
+        int[] arreglo1 = new int[numeroElementos];
+
         System.out.printf("%d\n", arreglo1.length);
         // Se hace uso del ciclo repetitivo for para recorrer el arreglo
         for (int i = 0; i < arreglo1.length; i++) {
